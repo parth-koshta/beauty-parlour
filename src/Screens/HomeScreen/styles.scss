@@ -1,8 +1,16 @@
-.banner-1-img {
-  width: 100%;
-  height: 100vh;
-  object-fit: fill;
-  filter: blur(5px);
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: 202020;
+}
+
+.banner-1 {
+  background-image: url("../../Assets/Images/back-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 75vh;
 }
 
 .banner-1-heading-wrapper {
